@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- This tells the browser how to read the document. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tells the browser what the title of this page should be. -->
+    <title>Resume</title>
+    <!-- Boostrap link -->
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <!-- W3 CSS -->
+    <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,100,200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <!-- Load the page styles. -->
+    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/all_styles.css" rel="stylesheet">
+    
+    <!--<link href="css/style 2.css" rel="stylesheet">-->
+   
+    <!--Semanitc JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/dimmer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+    <!-- Load the navstyles. -->
+    <!-- <link rel="stylesheet" href="css/navStyles.css"> -->
+    <!-- <script src="js/responsive-nav.js"></script> -->
+   
+    
+    <!--
+      jQuery is a common JavaScript library for reading and making changes to the
+      Document Object Model (DOM). The DOM is a tree that contains information
+      about what is actually visible on a website.
+
+      While HTML is a static document, the browser converts HTML to the
+      DOM and the DOM can change. In fact, JavaScript's power comes from
+      its ability to manipulate the DOM, which is essentially a JavaScript
+      object. When JavaScript makes something interesting happen on a
+      website, it's likely the action happened because JavaScript changed
+      the DOM. jQuery is fast and easy to use, but it doesn't do anything
+      you can't accomplish with vanilla (regular) JavaScript.
+      -->
+    <!-- <script src="js/jQuery.js"></script> -->
+    <!-- More on helper.js in the class -->
+    <!-- <script src="js/helper.js"></script> -->
+    <!--
+      Uncomment the <script> tag below when you're ready to add an interactive
+      Google Map to your resume!
+      -->
+<!--    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>-->
+   <!--  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBrpyn-4KhBXtu7KyU_0NOT20gVm8TIv6Q"></script> -->
+
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <a href="#home" class="logo" data-scroll><img src="images/logo.svg" alt="Logo" id="logo">Juan Carlos</a>
+          <nav class="nav-collapse">
+            <ul>
+              <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+              <li class="menu-item"><a href="#projects" data-scroll>Projects</a></li>
+              <li class="menu-item"><a href="#education" data-scroll>Education</a></li>
+              <li class="menu-item"><a href="#workExperience" data-scroll>Work</a></li>
+            </ul>
+          </nav>
+        </header>
+        <!--
+         Everything from here to the <script> tag below is the skeleton of your
+         website. Your code will add information to each of the sections of the
+         resume below. You can pretty easily figure out what each section will
+         display by looking at the id or at what's written between the <h2> tags.
+         -->
+        <section id="home">
+          <div class="container">
+            <div class="card-container">
+              <div class="col-wrapper">
+                <div class="col col-1">
+                    <div class="item">
+                      <div class="item-img">
+                      <div class="item-desc">
+                        <div id='title' class="item-heading"></div>
+                        
+                      </div>
+                      </div>
+                    </div>
+                    <!--item-->
+                </div>
+                <!--col-1 END-->
+              <!--</div>-->
+              <!--col wrapper--> 
+              <!--<div class="home col-wrapper2">-->
+               <div id="upperContacts" class="col col-2">
+                <div class="item">
+                  <!-- <div class="item-img"> -->
+                  <div class="item-desc">
+                    <!-- <div id='title' class="item-heading"></div> -->
+                    <div id="header" class="center-content">
+                        <ul id="topContacts"></ul>
+                    </div>
+                  </div>
+                  <!-- </div> -->
+                </div>
+                <!--item-->
+                </div>
+                <!--col-2-->
+                
+              </div>
+              <!--col wrapper-->
+            </div>
+            <!--card container-->
+          </div>
+          <!--container-->
+        </section>
+        <!--section home END-->
+
+          <hr>
+          <div id="projects">
+              <h2>Projects</h2>                             
+              <div class="ui special cards">
+              
+                  <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <!--<div class="ui inverted button">View Project</div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <img src="images/Portfolio.jpg">
+                    </div>
+                    <div class="content">
+                      <a class="header" href="https://juancarlucci.github.io/portfolio/portfolio_4.html" target="_blank">Online Portfolio</a>
+                      <div class="meta">
+                        <span class="date">Jan 2016</span>
+                         </div>
+                          <br>
+                        <div class="card-description">A showcase of my front-end work</div>            
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <!--<i class="bullseye icon"></i>-->
+                        <p>JavaScript, HTML, CSS, Semanitc JS, Responsive Nav<p>
+                      </a>
+                    </div>
+                  </div>
+                  <!--card END-->
+                  <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui inverted dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <!--<div class="ui primary button">View Project</div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <img src="images/player-bang.png">
+                    </div>
+                    <div class="content">
+                      <a class="header" href="https://juancarlucci.github.io/arcade-game" target="_blank">Arcade Game</a>
+                     
+                      <div class="meta">
+                        <span class="date">March 2016</span>
+                      </div>
+                      <br>
+                      <div class="card-description">Frogger, look out!. Single page responsive application developed using HTML-5 Canvas</div>
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <!--<i class="game icon"></i>-->
+                        <p>Object-Oriented JavaScript, HTML-5 Canvas</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card">
+                   <div class="blurring dimmable image">
+                      <div class="ui inverted dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <!--<div class="ui primary button">View Project</div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <img src="images/optimize.png">
+                    </div>
+                    <div class="content">
+                       <a class="header" href="https://github.com/juancarlucci/optimize" target="_blank">Web Optimization</a>
+                      <div class="meta">
+                          <span class="date">May 2016</span>
+                      </div>
+                       <br>
+                       <div class="card-description">Web performance optimization (WPO), Browser Rendering</div> 
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <!--<i class="settings icon"></i>-->
+                        <p>Targeted Page Speed, Critical Rendering Path, Chrome Developer Tools</p>
+                      </a>
+                    </div>
+                </div>
+                  <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui inverted dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <!--<div class="ui primary button">View Project</div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <img src="images/map.jpg">
+                    </div>
+                    <div class="content">
+                      <a class="header" href="https://juancarlucci.github.io/map" target="_blank">Interactive Map</a>
+                      <div class="meta">
+                        <span class="date">November 2016</span>
+                      </div>
+                      <br>
+                      <div class="card-description">Here be dragons! Interactive map with a search function</div> 
+                      
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <!--<i class="map outline icon"></i>-->
+                        <p>AJAX, JavaScript Design Patterns, Google API</p>
+                      </a>
+                    </div>
+                  </div>
+                    <div class="card ui centered card">
+                    <div class="blurring dimmable image">
+                      <div class="ui inverted dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <!--<div class="ui primary button">View Project</div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <img src="images/feedReader.svg">
+                    </div>
+                    <div class="content">
+                    <a class="header" href="https://github.com/juancarlucci/feedreader" target="_blank">Feed Reader</a>
+
+                      <div class="meta">
+                        <span class="date">December 2016</span>
+                      </div>
+                      <br>
+                      <div class="card-description">Implementation of 'test-driven development' or TDD</div>
+                      
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <!--<i class="feed icon"></i>-->
+                        <p>JavaScript Testing, Unit Testing, Jasmine</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+           </div>
+           
+           <!--projects-->
+        <!--</div>-->
+        <!--col-3-->
+        <hr>
+        <div id="education" class="gray">
+            <h2>Education</h2>                          
+              <div class="ui special cards">
+              
+                  <div class="card education" id="education-card-1">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <!--<div class="ui inverted button">View Project</div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <!--<img src="images/Portfolio.jpg">-->
+                    </div>
+                    <div class="content">
+                        <a class="header" href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank">Front End Nanodegree</a>
+                        <div class="meta">
+                        <span>Udacity online</span>
+                        <span class="date">Nov 2015-Nov 2016</span>
+                         </div>
+                          <br>
+                        <div class="card-description">Front-End Web Development, with a focus on building beautiful, responsive websites optimized for mobile and desktop performance.</div>
+                        <br>
+                        <div><h4>Skills:</h4>HTML, CSS, JavaScript, jQuery, HTML-5 Canvas, AJAX, JSON, Object Oriented JavaScript, Critical Rendering Path, Targeted Page Speed</div>
+                        <br>
+                        <div>Frameworks, libraries: Bootstrap, Knockout, Semanitc JS</div>
+                        <br>
+                        <div><h4>Relevant Courses:</h4>Responsive Web Design, Responsive Images, Git and Github</div>
+                    </div>
+
+                    <div class="content">
+                        <a class="header" href="http://online-learning.harvard.edu/course/cs50-introduction-computer-science" target="_blank">CS50: Introduction to Computer Science</a>
+                        <div class="meta">
+                        <span>Harvard online, self paced</span>
+                        <span class="date">Fall 2015</span>
+                         </div>
+                          <br>
+                        <div class="card-description">Introduction to programming with emphasis on thinking algorithmically and solving problems efficiently</div>
+                        <br>
+                        <div><h4>Skills:</h4>Loops, functions, variables, pointers</div>
+                        <br>
+                        <div><h4>Key understandings:</h4>abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development</div>
+                    </div>
+                   
+                       <div class="content">
+                        <a class="header" href="https://www.ccsf.edu/en/educational-programs/school-and-departments/school-of-liberal-arts/vmd.html" target="_blank">Visual Media Design Courses</a>
+                        <div class="meta">
+                        <span>San Francisco City College</span>
+                        <span class="date">2013-2014</span>
+                         </div>
+                          <br>
+                        <div class="card-description">The design and generation of assets for digital media utilizing Photoshop and Illustrator</div>
+                        <br>
+                        <div><h4>Skills:</h4>Masks, layers, filters, vector graphics</div>
+                       </div>
+                      
+                      <h3>University </h3>
+                       <div class="content">
+                        <a class="header" href="https://www.actcm.edu" target="_blank">American College of Traditional Chinese Medicine</a>
+                        <div class="meta">
+                        <span>CSan Francisco, CA</span>
+                        <span class="date">2003-2007</span>
+                         </div>
+                          <br>
+                        <div class="card-description">MA, Chinese Medicine</div>               
+                      </div>
+                       <div class="content">
+                        <a class="header" href="http://www.pomona.edu/" target="_blank">Pomona College</a>
+                        <div class="meta">
+                        <span>Claremont, CA</span>
+                        <span class="date">1988-1992</span>
+                         </div>
+                          <br>
+                        <div class="card-description">BA, International Relations</div>               
+                      </div>
+                  </div>
+                  <!--education card1 END-->
+
+                </div>
+                <!--ui cards-->
+        </div>
+        <!--education section END-->
+        <hr>
+        <div id="workExperience" class="gray">
+            <h2>Work Experience</h2>
+            <div class="ui special cards">
+              
+                  <div class="card education" id="work-card-1">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <!--<div class="ui inverted button">View Project</div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <!--<img src="images/Portfolio.jpg">-->
+                    </div>
+                    <div class="content">
+                        <a class="header" href="http://juancarlosacupuncture.com/" target="_blank">Juan Carlos Acupuncture</a>
+                        <div class="meta">
+                        <span>Owner</span>
+                        <span class="date">2008-Present</span>
+                         </div>
+                          <br>
+                        <div class="card-description">Provide primary care through acupuncture and Chinese Medicine</div>
+                    </div>
+
+                    <div class="content">
+                        <a class="header" href="http://www.acchs.edu/" target="_blank">Academy of Chinese Culture and Health Sciences</a>
+                        <div class="meta">
+                        <span>Associate Professor</span>
+                        <span class="date">2008-2013</span>
+                         </div>
+                          <br>
+                        <div class="card-description">Taught Chinese Medicine, Herbology, Formulas</div>
+                    </div>
+                    <div class="content">
+                        <a class="header" href="https://www.ecoliteracy.org/" target="_blank">Center for Ecoliteracy</a>
+                        <div class="meta">
+                        <span>Curriculum Coordinator</span>
+                        <span class="date">2000-2003</span>
+                         </div>
+                          <br>
+                        <div class="card-description">Worked closely with CEL’s Director, founding members
+                                        (including Fritjof Capra), and main investors to develop content,
+                                            programs and strategies</div>
+                    </div>
+                  </div>
+                  <!--work card1 END-->
+                </div>
+            </div>
+        
+        <div id="lets-connect" class="dark-gray">
+            <h2 class="orange center-text">Let's Connect</h2>
+            <ul id="footerContacts" class="flex-box">
+            </ul>
+        </div>
+        <div class="card" id="credits">
+            <h5>This page created by Juan Carlos Collins. Credits: Helper functions by Udacity Front-End Course, Navbar by adtile.me/fixed-nav, Cards by http://semantic-ui.com/</h5>
+            <br>
+        </div>
+    </div>
+    <!-- main /div -->
+    <!--
+      The next line tells the browser where to download the JavaScript file you'll be
+      writing. In resumeBuilder.js, you'll be writing code that builds the resume
+      dynamically when this website, index.html, is opened.
+      -->
+  <!--   <script src="js/resumeBuilder.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+    <script src="js/script.js"></script> -->
+    <!-- <script src="js/scroll.js"></script> -->
+    <script src="js/app.min.js"></script>
+    <!--
+      These scripts are written in JavaScript. You'll be breaking them down as part of
+      a quiz. Essentially, the next few lines are checking to see if you have not
+      changed each section of the resume. If you have not made any changes to a section
+      of the resume, then that part of the resume does not show up. More on this in the
+      course.
+      -->
+      <script type="text/javascript">
+                  $( document ).ready(function() {
+              $('.ui.card .image').dimmer({on: 'hover'});
+            });
+        </script>
+    <script type="text/javascript">
+        // Notice how all of a sudden there's JavaScript inside this HTML
+        // document? You can write JavaScript between <script> tags. At the end of your
+        // JavaScript, don't forget the closing script tag with the slash (/).
+
+
+        // Also, this is a JavaScript style comment. You can comment in JavaScript with:
+
+        //   two slashes for all following characters on a single line, or
+
+        /*
+            an opening and closing set of slash asterisks for block comments.
+        */
+
+
+//        if (document.getElementsByClassName('flex-item').length === 0) {
+//            document.getElementById('topContacts').style.backgroundColor = 'black';
+//        }
+//        if (document.getElementsByTagName('h1').length === 0) {
+//            document.getElementById('header').style.backgroundColor = 'black';
+//        }
+//        if (document.getElementsByClassName('work-entry').length === 0) {
+//            document.getElementById('workExperience').style.backgroundColor = 'black';
+//        }
+////        if (document.getElementsByClassName('project-entry').length === 0) {
+////            document.getElementById('projects').style.backgroundColor = 'black';
+////        }
+//        if (document.getElementsByClassName('education-entry').length === 0) {
+//            document.getElementById('education').style.backgroundColor = 'black';
+//        }
+//        if (document.getElementsByClassName('flex-item').length === 0) {
+//            document.getElementById('lets-connect').style.backgroundColor = 'black';
+//        }
+//        if (document.getElementById('mapDiv') === null) {
+//            document.getElementById('mapDiv').style.backgroundColor = 'black';
+//        }
+    </script>
+</body>
+
+</html>

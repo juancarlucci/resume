@@ -473,6 +473,7 @@ ul {
         text-align: left;
     }
     .welcome-message {
+        display: inline-block !important;
         font-size: 1.2em;
 
     }

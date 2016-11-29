@@ -9565,7 +9565,7 @@ var bio = {
 
     },
     "welcomeMessage": "As a front-end developer, my guiding principles include responsive, maintainable, and engaging web development.",
-    "skills": ["HTML/CSS/JavaScript", "Responsive Web Development", "User Interface", "Efficient Problem Solving"],
+    "skills": ["Responsive Web Development", "User Interface", "Efficient Problem Solving"],
     "biopic": "images/jc.jpg"
 };
 

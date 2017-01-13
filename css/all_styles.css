@@ -257,6 +257,10 @@ a.white-text:hover {
 	color: #878484;
 }
 
+#projects {
+	padding-bottom: 76px;
+}
+
 #education {
 	margin-bottom: 15px;
 }

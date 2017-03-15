@@ -9547,7 +9547,7 @@ $(document).click(function(loc) {
 
 var bio = {
     "name": "Juan Carlos Collins",
-    "role": "Web Developer",
+    "role": "Web Developer, Data Visualizer",
     "contacts": {
         "mobile": "415-641-1939",
         "email": "juancarloscollins@gmail.com",
@@ -9565,7 +9565,7 @@ var bio = {
 
     },
     "welcomeMessage": "As a front-end developer, my guiding principles include responsive, maintainable, and engaging web development.",
-    "skills": ["Responsive Web Development", "User Interface", "Efficient Problem Solving"],
+    "skills": ["Responsive Web Development", "User Interface", "Efficient Problem Solving", "Communicating Data Visually"],
     "biopic": "images/jc.jpg"
 };
 

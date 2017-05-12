@@ -9550,7 +9550,7 @@ var bio = {
     "role": "Web Developer, Data Visualizer",
     "contacts": {
         "mobile": "415-641-1939",
-        "email": "juancarloscollins@gmail.com",
+        "email": "juancarloscollins[at]gmail.com",
         "linkedin": 
             [{
              "title": "juancarloscollins",

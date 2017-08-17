@@ -110,7 +110,7 @@ div.col.col-2.item-desc {
 }
 
 .ui.cards {
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .item {

@@ -9564,7 +9564,7 @@ var bio = {
         "location": ["san francisco, ca"]
 
     },
-    "welcomeMessage": "As a front-end developer, my guiding principles include responsive, maintainable, and engaging web development.",
+    "welcomeMessage": "I bring together the fields of complex systems theory, education and visualization.",
     "skills": ["Responsive Web Development", "User Interface", "Efficient Problem Solving", "Communicating Data Visually"],
     "biopic": "images/jc.jpg"
 };

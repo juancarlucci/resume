@@ -110,12 +110,12 @@ div.col.col-2.item-desc {
 }
 
 .ui.cards {
-	justify-content: center;
+  justify-content: center;
 }
 
 .card {
-	height: 510px;
-  width: 516px;
+  height: 510px !important;
+  width: 516px !important;
 }
 
 .card-description {

@@ -113,7 +113,7 @@ div.col.col-2.item-desc {
   justify-content: center;
 }
 
-#projects.ui.cards>.card {
+.ui.cards>.card {
   height: 550px;
   width: 516px;
 }

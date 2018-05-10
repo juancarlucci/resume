@@ -113,9 +113,9 @@ div.col.col-2.item-desc {
   justify-content: center;
 }
 
-.card {
-  height: 510px !important;
-  width: 516px !important;
+.ui.cards>.card {
+  height: 510px;
+  width: 516px;
 }
 
 .card-description {

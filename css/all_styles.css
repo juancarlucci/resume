@@ -113,6 +113,23 @@ div.col.col-2.item-desc {
 	justify-content: center;
 }
 
+.card {
+	height: 510px;
+  width: 516px;
+}
+
+.card-description {
+  font-size: 1.6em;	
+}
+
+.extra.content {
+  font-size: 1.4em;	
+}
+
+.ui.cards>.card>.content>.header:not(.ui) {
+	font-size: 2.1em;
+}
+
 .item {
 	width: calc(100% - 25px);
 	margin: 25px auto;
